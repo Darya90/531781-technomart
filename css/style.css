@@ -1613,7 +1613,8 @@ a.active {
 
 .modal {
     position: fixed;
-	display:none;
+	display: none;
+	
 }
 .feedback {
 	position: relative;
@@ -1738,7 +1739,6 @@ a.active {
 
 .close {
     position: absolute;
-    border: none;
     top: 9px;
     right: 9px;
     width: 21px;
