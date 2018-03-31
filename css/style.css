@@ -693,9 +693,7 @@ display: flex;
 -webkit-box-direction: normal; 
 -ms-flex-direction: row; 
 flex-direction: row; 
-/* -webkit-box-pack: end; */ 
 -ms-flex-pack: end; 
-/* justify-content: flex-end; */ 
 -ms-flex-wrap: wrap; 
 flex-wrap: wrap; 
 width: 940px; 
@@ -994,7 +992,6 @@ img {
 }
 .catalog-item {
     position:relative;
-    /*display:inline-block;*/
     width:218px;
     margin-right:20px;
     border:1px solid #ccc;
@@ -1430,9 +1427,8 @@ a.active {
     padding-bottom: 128px;
 	margin: 0 auto;
 	margin-top: 70px;
-	background: url(../img/Car.png) no-repeat;	
-	background-position: 100% 100%;
-	
+	background: url(../img/delivery.png) no-repeat;	
+	background-position: 100% 100%;	
 }
 .guarantee-slide {
 	display: none;
@@ -1617,10 +1613,10 @@ a.active {
 
 .modal {
     position: fixed;
+	display:none;
 }
 .feedback {
 	position: relative;
-	display:none;
     bottom: 632px;
     left: 50%;
     margin-left: -310px;
@@ -1648,7 +1644,7 @@ a.active {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-			display:none;
+			
 }
 .feedback p {
     margin: 0;
@@ -1742,7 +1738,6 @@ a.active {
 
 .close {
     position: absolute;
-	display:none;
     border: none;
     top: 9px;
     right: 9px;
@@ -1773,7 +1768,6 @@ a.active {
 }
 .modal-map {
     position: relative;
-	display:none;
     bottom: 803px;
     left: 50%;
     margin-left: -470px;
@@ -2720,7 +2714,7 @@ ul.sorting-list {
 }
 .pop-up-basket {
 	position: relative;
-	display:none;
+	display: none;
     bottom: 1880px;
     left: 50%; 
     margin-left: -310px;
@@ -2773,6 +2767,7 @@ ul.sorting-list {
 }
 .pop-up-continue {
 	background-color: #ffffff;
+	color: #000000;
 	width: 220px;
 	border-radius: 3px;
 	padding-top: 8px;
