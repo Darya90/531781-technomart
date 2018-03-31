@@ -966,13 +966,13 @@ ul#slider {
 	width: 940px;
     padding: 0 10px;
     -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+     box-sizing: content-box;
 }
 img {
-	background-image: url(img/Bosch_BFG_3000.jpg);
-	background-image: url (img/Bosch_BFG_6000.jpg);
+	background-image: url(img/Bosch-BFG-3000.jpg);
+	background-image: url (img/Bosch-BFG-6000.jpg);
 	background-image: url (img/Bosch-BFG-2000.jpg);
-	background-image: url (img/Bosch_BFG_9000.jpg);
+	background-image: url (img/Bosch-BFG-9000.jpg);
     background-color: #1e5471; 
 }
 .drill {
@@ -1613,9 +1613,12 @@ a.active {
 
 .modal {
     position: fixed;
-	display: none;
-	
+	 display: none;	
 }
+.modal h3 {
+	 text-transform: none;
+	 
+ }
 .feedback {
 	position: relative;
     bottom: 632px;
