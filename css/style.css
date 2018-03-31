@@ -12,13 +12,13 @@ body {
 }
 
 .container-flex {
-	outline: 1px solid red; 
+	
     margin: 0 auto; 
     max-width: 960px; 
     width: 960px; 
 }
 .main-container, .navigation, .main-unit, .popular-goods, .navigation, .drill-container, .manufacturers-list, .brend-container, .services-list, .slide-container, .advertising, .contacts, .brend {
-    outline: 1px solid red;
+    
     margin: 0 auto;
     width: 940px;
     max-width: 940px;
@@ -2496,10 +2496,12 @@ span {
     text-transform: uppercase;
     margin-top: 5px;	
 }
-.filters fieldset {
-    margin: 0;
-    padding: 0;
+.filters fieldset { 
+margin: 0; 
+padding: 0; 
+border: 0 none; 
 }
+
 
 .catalog-column-container {
     -ms-flex-wrap: column;
