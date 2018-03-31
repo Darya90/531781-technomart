@@ -291,6 +291,7 @@ color: #000000;
 .main-header-basket {
 	width: 100px;
     padding-left: 50px;
+	
 }
 .main-header-basket::before {
     content: "";
@@ -304,6 +305,32 @@ color: #000000;
     background-position: 0 0;
     opacity: 0.3;
 }
+/*-------Basket red-----*/
+.user-basket {
+	position:absolute;
+	width: 100px;
+    padding-left: 50px;	
+}
+.main-header-basket2::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 22px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 0.3;
+}
+.main-header-basket2 {
+	position:absolute;
+	width: 100px;
+	padding-left: 50px;
+     margin-left: 100px;
+	background-color: #ee3643;
+}
+
 .main-header-buy {
 	background-color: #63a63e;
 	font-size: 17px;
@@ -1587,6 +1614,11 @@ a.active {
 .contacts-map {
 	background-image: url(img/map1.png);
     background-color: #eeeae3; 	
+}
+.map-links {
+	padding:0;
+	margin:0;
+	margin-left: -65px;
 }
 .contacts h2 {
 	font-family: Cuprum, Arial, sans-serif;
