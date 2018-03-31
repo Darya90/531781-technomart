@@ -563,7 +563,6 @@ a.user-name:active {
     text-align: center;
     border: 2px solid #ffffff;
 }
-
 .icon-phone {
 	fill: none;
 	fill-opacity: 1.0;
@@ -583,7 +582,6 @@ a.user-name:active {
     color: #32425c;
     text-align: center;
 	text-transform: none;
-	font-style: none;
 }
 .user-block .login {
 	position: relative;
@@ -970,9 +968,9 @@ ul#slider {
 }
 img {
 	background-image: url(img/Bosch-BFG-3000.jpg);
-	background-image: url (img/Bosch-BFG-6000.jpg);
-	background-image: url (img/Bosch-BFG-2000.jpg);
-	background-image: url (img/Bosch-BFG-9000.jpg);
+	background-image: url(img/Bosch-BFG-6000.jpg);
+	background-image: url(img/Bosch-BFG-2000.jpg);
+	background-image: url(img/Bosch-BFG-9000.jpg);
     background-color: #1e5471; 
 }
 .drill {
@@ -1171,7 +1169,6 @@ img {
 	text-transform: uppercase;
 	vertical-align: top;
     padding-left: 15px;
-    width:250;
 	padding-top: 10px;
 	font-weight: normal;
 }
@@ -1588,18 +1585,15 @@ a.active {
 	text-transform: uppercase;
 }
 .contacts-map {
-	background-image: url (img/map1.png);
-    background-color: #eeeae3; 
-	
+	background-image: url(img/map1.png);
+    background-color: #eeeae3; 	
 }
-
 .contacts h2 {
 	font-family: Cuprum, Arial, sans-serif;
 	font-size: 30px;
     line-height: 30px;
 	font-weight: bold;
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
 }
 .contacts p {
 	font-family: PT Sans, Arial, sans-serif;
@@ -2125,13 +2119,13 @@ span {
   left: -26px;
 }
 .block-user {
-	font-size: 21x;
+	font-size: 21px;
     line-height: 21px;
 	text-transform: none;
 	font-weight: bold;
 }
 .links a {
-	font-size: 16x;
+	font-size: 16px;
     line-height: 18px;
 	text-transform: none;
 	color: #32425c;
@@ -2508,7 +2502,6 @@ border: 0 none;
 
 .catalog-column-container {
     -ms-flex-wrap: column;
-    flex-wrap: column;
     width: 220px;
 	margin-right: 20px;
 }
@@ -2518,7 +2511,6 @@ ul.sorting-list {
 	display: flex;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-    stify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 410px;
